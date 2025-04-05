@@ -1,0 +1,72 @@
+@import url(global.css);
+
+footer.footer{
+  background: rgba(var(--white-rgb),1);
+  color: var(--brown-dark);
+  text-shadow: 0px 0px 1px rgba(var(--black-rgb), 0.125);
+  position: relative;
+  padding: 80px 0;
+}
+footer.footer p{
+  text-align: center;
+}
+footer.footer p span{
+  display: block;
+  padding: 5px 0;
+}
+/* media query starts */
+@media(min-width:320px) {
+  .footer{
+    padding: var(--spacer-mobile) 0;
+    font-size: var(--font-size-base);
+  }
+  .footer .container{
+    position: relative;
+    z-index: 100;
+  }
+  .footer p{
+    font-size: var(--font-size-base);
+    font-weight: 400;
+    color: var(--black-rgb);
+    margin-bottom: 0;
+  }
+  footer.footer{
+    padding: 30px 0;
+  }
+
+}
+
+@media(min-width: 576px) {
+  
+}
+
+@media(min-width: 769px) {
+  footer.footer{
+    padding: 60px 0;
+  }
+  .footer p{
+    font-size: var(--font-size-xl);
+    line-height: 160%;
+  }
+}
+
+@media(min-width: 992px) {
+  footer.footer{
+    padding-top: 70px;
+  }
+  .footer p{
+    font-size: var(--font-size-h3);
+    line-height: 160%;
+  }
+}
+
+@media(min-width: 1200px) {
+  footer.footer{
+    padding-top: var(--spacer-desktop);
+    padding-bottom: 45px;
+  }
+ }
+
+@media(min-width: 1400px) {
+}
+/* media query ends */

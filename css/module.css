@@ -1,0 +1,274 @@
+@import url(global.css);
+
+.banner-map:before,
+.gaele-carousel-wrap:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .15;
+  background-size: cover;
+}
+.banner-map{
+  position: relative;
+}
+
+.glow-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 130px;
+  display: none;
+  pointer-events: none;
+  z-index: 10;
+  height: auto;
+  object-fit: contain;
+}
+
+
+@media(min-width:320px){
+  body{
+    background: url(../images/repeat-back-girl.png) 0 0 repeat-y, url(../images/Illustrations_arriere-plan_HR.png) 70% 0 no-repeat;
+    background-size: contain;
+  }
+  .banner-map:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: 0;
+  }  
+  .map{
+    background-image: url(../images/map-images/map-new-mobile.svg);
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 50% !important;
+    width: 325px;
+    height: 330px;
+    margin:100px auto 0 auto;
+    position: relative;
+  }
+  .island[data-id="bio"] .glow-image { 
+    top: 161px;
+    left: 140px;
+    width: 45px;
+  }
+  .island[data-id="gaelebiche"] .glow-image { 
+    top: 187px;
+    left: 225px;
+    width: 60px;
+  }
+  .island[data-id="albums"] .glow-image { 
+    top: 121px;
+    left: 27px;
+    width: 64px;
+  }
+  .island[data-id="latreve"] .glow-image { 
+    top: 142px;
+    left: 191px;
+    width: 104px;
+  }
+  .island[data-id="les2l"] .glow-image { 
+    top: 26px;
+    left: 173px;
+    width: 87px;
+  }
+  .island[data-id="pourlesautres"] .glow-image { 
+    top: 244px;
+    left: 87px;
+    width: 52px;
+  }
+  
+
+  .gaele-carousel-wrap{
+    padding:50px 20px;
+    position: relative;
+    background-position: 0 0;
+  }
+  .slide-box{
+    position: relative;
+    width: 100%;
+    transition: all 500ms ease-in-out;
+    overflow: hidden;
+  }
+  .slide-box .overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(69, 39, 5, 0.6);
+    transition: all 500ms ease-in-out;
+    z-index: 1;
+  }
+  .slide-box img{
+    object-fit: cover;
+    width: 100%;
+    transition: all 500ms ease-in-out;
+     transform: scale(1.25);
+  }
+  .slide-box:hover img{
+    transition: all 500ms ease-in-out;
+    transform: scale(1.35);
+  }
+  .slide-box .overlay span{
+    font-size: var(--font-size-base);
+    transition: all 500ms ease-in;
+    line-height: 180%;
+  }
+  .slide-box:hover .overlay span{
+    opacity: 0;
+    transition: all 500ms ease-out;
+  }
+  .slide-box:hover .overlay{
+    background-color:rgba(69, 39, 5, 0);
+    transition: all 500ms ease-in-out;
+  }
+  .gaele-carousel-wrap:before{
+    background-position: -90px -50px;
+    background-size: 160% 80%;
+  }
+  .about-section{
+    padding: 20px;
+  }
+  .about-text{
+    color: var(--brown-dark);
+    font-size: var(--font-size-base);    
+    padding: 50px 0;
+  }
+  .about-text a{
+    color: var(--brown-dark);
+    text-decoration: underline;
+  }
+
+  .about-image img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+  }
+  .t-text-pushed{
+    padding-left: 15%;
+  }
+
+}
+@media(min-width:640px){
+
+}
+
+@media(min-width:992px){
+  body{
+    background-size: cover;
+  }
+  .content{
+    position: relative;
+  }  
+  .banner-map:after{
+    height: 100%;
+    background-size: cover;
+  }  
+  .banner-map{
+    min-height: 800px;
+  }
+  .gaele-carousel-wrap{
+    padding: 70px;
+    background-position: 0 0;
+  }
+  .gaele-carousel-wrap:before{
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+  .about-section{
+    padding:100px 0 150px 0;
+    background: url(../images/about-text-shape-bg.svg) 100% 50% no-repeat;
+    background-size: 612px;
+  }
+  .about-text{
+    font-size: var(--font-size-h4);    
+    color: var(--brown-dark);
+    width: 50%;
+    padding: 5px 50px 100px 0;
+    line-height: 140%;
+  }
+  .t-text{
+    margin-left: -10%;
+  }
+  .about-image{
+    width: 50%;
+  }
+  .about-image img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+  }
+  .map{
+    background-image:url(../images/map-images/map-new.svg);
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 50% !important;
+    width: 825px;
+    height: 904px;
+    margin:100px auto 0 auto;
+  } 
+.island {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+}
+.island[data-id="bio"] .glow-image { 
+  top: 447px;
+  left: 353px;
+  width: 112px;
+}
+.island[data-id="gaelebiche"] .glow-image { 
+  top: 515px;
+  left: 593px;
+  width: 157px;
+}
+.island[data-id="albums"] .glow-image { 
+  top: 340px;
+  left: 57px;
+  width: 153px;
+}
+.island[data-id="latreve"] .glow-image { 
+  top: 387px;
+  left: 478px;
+  width: 297px;
+}
+.island[data-id="les2l"] .glow-image { 
+  top: 84px;
+  left: 447px;
+  width: 224px;
+}
+.island[data-id="pourlesautres"] .glow-image { 
+  top: 670px;
+  left: 210px;
+  width: 130px;
+}
+  
+ 
+  
+}
+
+@media(min-width:1200px){
+  .banner-map{
+    min-height: 1080px;
+  }
+  .slide-box .overlay span{
+    font-size: var(--font-size-h3);
+    transition: all 500ms ease-in;
+    line-height: 180%;
+  }
+  .about-text{
+    font-size: var(--font-size-h3);    
+    padding: 105px 50px 100px 0;
+  }
+}

@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RRESS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css" integrity="sha512-pmAAV1X4Nh5jA9m+jcvwJXFQvCBi3T17aZ1KWkqXr7g/O2YMvO8rfaa5ETWDuBvRq6fbDjlw4jHL44jNTScaKg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="main-page">
+<!-- Mobile Top Right Hamburger -->
+<div class="mobile-header d-lg-none">
+  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileSidebar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</div>
+<!-- Sidebar Desktop -->
+<div class="sidebar d-none d-lg-block">
+  <div class="brand-block">
+    <div class="position-relative py-4">
+      <span class="text text-first text-start">Je m'appelle</span>
+      <span class="logo"><img src="images/logo.svg" alt=""></span>
+      <span class="text text-last text-end">et je t'aime</span>
+    </div>
+  </div>
+  <div class="brand-block support-text">
+    <p>Voici mon <br>territoire</p>
+  </div>
+  <div class="desktop-nav">
+    <ul class="nav d-flex flex-column">
+      <li class="nav-item"><a class="nav-link" href="bio.html" data-id="bio">bio</a></li>
+      <li class="nav-item"><a class="nav-link" href="#" data-id="gaelebiche">Gaële&Biche</a></li>
+      <li class="nav-item"><a class="nav-link" href="#" data-id="albums">albums</a></li>
+      <li class="nav-item"><a class="nav-link" href="#" data-id="latreve">la Trêve</a></li>
+      <li class="nav-item"><a class="nav-link" href="#" data-id="les2l">les 2L</a></li>
+      <li class="nav-item"><a class="nav-link" href="#" data-id="pourlesautres">pour les autres</a></li>
+    </ul>
+  </div>
+</div>
+<!-- Offcanvas Sidebar Mobile -->
+<div class="offcanvas offcanvas-top" tabindex="-1" id="mobileSidebar">
+  <div class="offcanvas-header offcanvas-header-position">
+    <h5 class="offcanvas-title"><img width="90" src="images/logo.svg" alt=""></h5>
+    <button type="button" class="btn-close btn-close" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="w-100 d-flex justify-content-end">
+      <ul class="nav">
+        <li class="nav-item"><a class="nav-link" href="bio.html" data-id="bio">bio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" data-id="gaelebiche">Gaële&Biche</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" data-id="albums">albums</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" data-id="latreve">la Trêve</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" data-id="les2l">les 2L</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" data-id="pourlesautres">pour les autres</a></li>      
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- Page Content -->
+<div class="content">
+  <div class="banner-map">
+    <div class="map">
+      <div class="island" data-id="bio"><img src="images/map-images/Bio.svg" class="glow-image"/></div>
+      <div class="island" data-id="gaelebiche"><img src="images/map-images/GAËLE&BICHE.svg" class="glow-image"/></div>
+      <div class="island" data-id="albums"><img src="images/map-images/Albums.svg" class="glow-image"/></div>
+      <div class="island" data-id="latreve"><img src="images/map-images/La Trève.svg" class="glow-image"/></div>
+      <div class="island" data-id="les2l"><img src="images/map-images/Les 2 L.svg" class="glow-image"/></div>
+      <div class="island" data-id="pourlesautres"><img src="images/map-images/Pour les autres.svg" class="glow-image"/></div>
+    </div>
+  </div>
+  <!-- banner-wrap ends -->
+   <div class="about-section">
+    <div class="about-container d-flex flex-column flex-md-row">
+      <div class="about-image"><img src="images/sitting-lady.png" alt=""></div>
+      <div class="about-text">
+        <div class="t-text">
+          <p>En ce moment, mon coeur <br>d’artiste multidisciplinaire <br>vibre au rythme de…</p>
+        </div>
+        <div class="t-text-pushed">
+          <p>◊ La sororité du spectacle <a href="#">Héritières</a></p>
+          <p>◊ Le théâtre musical <a href="#">D’aventures en aventures</a> de Serge Lama</p>
+          <p>◊ La chanson <a href="#">Balle perdue</a> de La Trêve</p>
+        </div>
+      </div>
+    </div>
+   </div>
+  <div class="gaele-carousel-wrap">
+    <h4 class="text-center mb-4">// actu //</h4>
+    <div class="gaele-container">
+      <div class="swiper gaele-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slide-box">
+              <div class="overlay">
+                <span class="text-white">// @gaelecockpit //</span>
+              </div>
+              <img src="images/Section Actu/@gaelecockpit.png" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-box">
+              <div class="overlay">
+                <span class="text-white">// @heritieres_musique //</span>
+              </div>
+              <img src="images/Section Actu/@heritieres_musique.png" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-box">
+              <div class="overlay">
+                <span class="text-white">// @lama_daventures<br>_en_aventures //</span>
+              </div>
+              <img src="images/Section Actu/@lama_daventures_en_aventures.png" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-box">
+              <div class="overlay">
+                <span class="text-white">// @gaele_biche //</span>
+              </div>
+              <img src="images/Section Actu/@gaele_biche.png" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-box">
+              <div class="overlay">
+                <span class="text-white">// @latrevemusique //</span>
+              </div>
+              <img src="images/Section Actu/@latrevemusique.png" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-box">
+              <div class="overlay">
+                <span class="text-white">// @les2l_officiel //</span>
+              </div>
+              <img src="images/Section Actu/@les2l_officiel.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+  <!-- page-carousel ends -->
+  <footer class="footer">
+    <div class="container">
+      <p>45,52650° N, 73,58340° O<br>infogaele@gmail.com</p>
+    </div>
+
+  </footer>
+  <!--footer ends-->
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js" integrity="sha512-f6bQMg6nkSRw/xfHw5BCbISe/dJjXrVGfz9BSDwhZtiErHwk7ifbmBEtF9vFW8UNIQPhV2uEFVyI/UHob9r7Cw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
