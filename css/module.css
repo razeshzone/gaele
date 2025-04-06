@@ -253,7 +253,12 @@
   left: 210px;
   width: 130px;
 }
-  
+.album-text{
+  padding-bottom: 0;
+}
+.album-text p{
+  font-size: calc(var(--font-size-base)*1.429);
+}  
  
   
 }
@@ -271,4 +276,8 @@
     font-size: var(--font-size-h3);    
     padding: 105px 50px 100px 0;
   }
+  .album-text{
+    padding-bottom: 0;
+  }
+  
 }
