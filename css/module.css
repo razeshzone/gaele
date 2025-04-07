@@ -159,8 +159,8 @@
 }
 @media(min-width:640px){
   body.main-page{
-    background: url(../images/repeat-back-girl.png) 0 0 repeat-y, url(../images/Illustrations_arriere-plan_HR.png) -40px 137px no-repeat;
-    background-size: cover;
+    background: url(../images/repeat-back-girl.png) 0 0 repeat-y, url(../images/Illustrations_arriere-plan_HR.png) 50% 126px no-repeat;
+    background-size: contain;
   }
 }
 @media(min-width:768px){
@@ -184,7 +184,7 @@
 }
 @media(min-width:992px){
   body.main-page{
-    background: url(../images/repeat-back-girl.png) 0 0 repeat-y, url(../images/Illustrations_arriere-plan_HR.png) 120px 10px no-repeat;
+    background: url(../images/repeat-back-girl.png) 0 0 repeat-y, url(../images/Illustrations_arriere-plan_HR.png) 0% -50px no-repeat;
     background-size: cover;
   }
   .content{
@@ -380,14 +380,14 @@
     width: 112px;
   }
   .about-image img{
-    max-width: 700px;
+    max-width: 920px;
   }
 
 }
 
 @media(min-width:1920px){
   body.main-page{
-    background: url(../images/repeat-back-girl.png) 0 0 repeat-y, url(../images/Illustrations_arriere-plan_HR.png) 30px -70px no-repeat;
+    background: url(../images/repeat-back-girl.png) 0 0 repeat-y, url(../images/Illustrations_arriere-plan_HR.png) 50% -70px no-repeat;
   }
   .map {
     background-size:100% 904px;
