@@ -50,7 +50,7 @@ var swiper = new Swiper(".gaele-swiper", {
   loop: true,
   pagination: false,
   autoplay: {
-    delay: 2500,
+    delay: 5000,
     disableOnInteraction: false,
   },
   breakpoints: {

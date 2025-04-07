@@ -70,8 +70,9 @@ body {
   --font-size-h5:16px;
   --font-size-h6:12px;
   --font-size-md:14px;
-  --font-size-lg:var(--font-size-base);
+  --font-size-lg:calc(var(--font-size-base) + 2px);
   --font-size-xl:18px;
+  --font-size-xxl:24px;
   --spacer-desktop:95px;
   --spacer-mobile:74px;
 }
