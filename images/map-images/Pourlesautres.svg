@@ -1,15 +1,17 @@
-<svg width="151" height="188" viewBox="0 0 151 188" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="169" height="211" viewBox="0 0 169 211" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_1546_43)">
-<path d="M3.17997 77.33C-21.13 113.24 127.76 187.34 145.11 187.34C159.44 187.34 138.14 47.58 123.36 2.39999C120.61 -6.01001 82.08 15.85 70.63 22.56C44.51 37.85 20.26 52.09 3.17997 77.33Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M73.51 34.0902C52.57 48.1602 32.23 59.1002 18.15 81.1902C2.56996 105.64 63.92 149.15 115.65 165.6C128.12 169.57 128.23 179.38 138.95 176.32C151.25 172.81 132.49 50.8802 116.94 13.9002C113.93 6.75017 83.29 27.5102 73.51 34.0802V34.0902Z" fill="#D8B3A3" stroke="black" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M71.7699 45.63C54.4399 58.38 36.6099 63.35 24.5399 82.29C17.3399 93.59 25.2799 103.89 44.2699 119.66C62.2999 134.63 86.2999 154.37 108.98 154.37C124.13 154.37 124.55 167.75 132.93 164.38C144.48 159.74 125.67 54.02 108.99 25.42C105.5 19.44 80.5499 39.16 71.7699 45.63Z" stroke="black" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M73.46 65.7101C62.76 75.5601 49.67 77.2801 41.3 90.0601C28.49 109.63 97.87 155.21 113.67 141.91C123.82 133.37 113.31 60.4601 99.22 45.2401C93.46 42.4101 80.47 59.2701 73.47 65.7101H73.46Z" stroke="black" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M75.56 77.5499C68.58 85.5699 58.78 84.4799 52.73 93.9799C43.04 109.21 91.74 147.43 106.41 130.62C115.42 120.3 108.56 62.7799 94.14 57.2799C88.12 54.9799 81.17 71.0999 75.56 77.5599V77.5499Z" stroke="black" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M63.1999 102.79C57.0299 111.22 83.9499 135.06 96.1899 119.49C103.48 110.22 98.5999 80.6899 86.8899 80.6899C80.7399 80.6899 79.7599 91.0299 76.0699 96.1299C72.6699 100.82 66.7499 97.9599 63.1999 102.79Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<g filter="url(#filter0_f_1546_43)">
+<path d="M16.4364 85.3157C-5.70026 118.182 129.879 186 145.677 186C158.726 186 139.331 58.0876 125.872 16.7376C123.368 9.04051 88.2825 29.0474 77.8562 35.1886C54.0714 49.1824 31.9894 62.2153 16.4364 85.3157Z" fill="#CF8070" fill-opacity="0.64"/>
+</g>
 </g>
 <defs>
+<filter id="filter0_f_1546_43" x="-1" y="0" width="166" height="201" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="7.5" result="effect1_foregroundBlur_1546_43"/>
+</filter>
 <clipPath id="clip0_1546_43">
-<rect width="150.35" height="187.83" fill="white"/>
+<rect width="169" height="211" fill="white"/>
 </clipPath>
 </defs>
 </svg>

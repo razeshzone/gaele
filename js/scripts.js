@@ -1,45 +1,75 @@
 
 function triggerGlowImage(id) {
+  // Hide all glow images first
   $('.glow-image').hide();
+
+  // Show the one that matches the selected island
   $(`.island[data-id="${id}"] .glow-image`).fadeIn(150);
 }
 
-// Desktop hover: show glow on mouseenter/leave
+// Hover on nav-link (desktop)
 $(document).on('mouseenter', '.nav-link', function () {
   if ($(window).width() >= 992) {
     const id = $(this).data('id');
     triggerGlowImage(id);
   }
 });
+
 $(document).on('mouseleave', '.nav-link', function () {
   if ($(window).width() >= 992) {
     $('.glow-image').fadeOut(100);
   }
 });
 
-// Mobile + click (and also desktop click now)
+// Click on nav-link (mobile + desktop)
 $(document).on('click', '.nav-link', function (e) {
   const id = $(this).data('id');
   triggerGlowImage(id);
-  
-  // If on mobile, close the offcanvas menu.
+
+  // Close offcanvas if open (mobile)
   if ($(window).width() < 992) {
     const offcanvasEl = document.getElementById('mobileSidebar');
     const offcanvas = bootstrap.Offcanvas.getInstance(offcanvasEl);
-    if (offcanvas) {
-      offcanvas.hide();
-    }
+    if (offcanvas) offcanvas.hide();
   }
-  
-  // Get the href attribute of the clicked link.
+
+  // Handle href navigation
   const href = $(this).attr('href');
-  
-  // If the href is not "#" (i.e. a real URL), delay navigation slightly.
   if (href && href !== "#") {
-    e.preventDefault();  // Prevent immediate navigation.
-    setTimeout(function () {
+    e.preventDefault();
+    setTimeout(() => {
       window.location.href = href;
-    }, 200); // Delay 200ms to allow the glow effect to show.
+    }, 200);
+  }
+});
+
+// Hover on map island (desktop)
+$(document).on('mouseenter', '.island', function () {
+  if ($(window).width() >= 992) {
+    const id = $(this).data('id');
+    triggerGlowImage(id);
+  }
+});
+
+$(document).on('mouseleave', '.island', function () {
+  if ($(window).width() >= 992) {
+    $('.glow-image').fadeOut(100);
+  }
+});
+
+// Click on island (all devices)
+$(document).on('click', '.island', function () {
+  const id = $(this).data('id');
+  triggerGlowImage(id);
+
+  // Optional redirect based on matching nav-link
+  const link = $(`.nav-link[data-id="${id}"]`);
+  const href = link.attr('href');
+
+  if (href && href !== "#") {
+    setTimeout(() => {
+      window.location.href = href;
+    }, 200);
   }
 });
 

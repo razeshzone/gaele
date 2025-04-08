@@ -14,6 +14,13 @@
 .title-main h2{
   color: var(--brown-dark);
 }
+.island{
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  display: block;
+  cursor: pointer;
+}
 
 @media(min-width:320px){
   body.main-page{
@@ -25,7 +32,6 @@
     background-size: contain;
     background-color: #E7E7E7;
   }
-
   .map{
     background-image: url(../images/map-images/map-new-mobile.svg);
     background-size: contain;
@@ -36,35 +42,71 @@
     margin:100px auto;
     position: relative;
   }
+  .island-bio{
+    top: 49%;
+    left: 42%;
+    width: 48px;
+    height: 34px;
+  }  
   .island[data-id="bio"] .glow-image { 
-    top: 161px;
-    left: 140px;
-    width: 45px;
+    top: 0%;
+    left: 2%;
+    width: 50px;
+  }
+  .island-gaelebiche{
+    top: 56%;
+    left: 70%;
+    width: 62px;
+    height: 80px;
   }
   .island[data-id="gaelebiche"] .glow-image { 
-    top: 187px;
-    left: 225px;
-    width: 60px;
+    top: 0%;
+    left: 0%;
+    width: 62px;
+  }
+  .island-albums{
+    top: 36%;
+    left: 8%;
+    width: 54px;
+    height: 46px;
   }
   .island[data-id="albums"] .glow-image { 
-    top: 121px;
-    left: 27px;
-    width: 64px;
+    top: 0%;
+    left: 0%;
+    width: 68px;
+  }
+  .island-latreve{
+    top: 43%;
+    left: 58%;
+    width: 108px;
+    height: 36px;
   }
   .island[data-id="latreve"] .glow-image { 
-    top: 142px;
-    left: 191px;
-    width: 104px;
+    top: 0%;
+    left: 1%;
+    width: 108px;
+  }
+  .island-les2l{
+    top: 8%;
+    left: 53%;
+    width: 88px;
+    height: 80px;
   }
   .island[data-id="les2l"] .glow-image { 
-    top: 26px;
-    left: 173px;
-    width: 87px;
+    top: 2%;
+    left: 3%;
+    width: 88px;
+  }
+  .island-pourlesautres{
+    top: 74%;
+    left: 25%;
+    width: 60px;
+    height: 64px;
   }
   .island[data-id="pourlesautres"] .glow-image { 
-    top: 244px;
-    left: 87px;
-    width: 52px;
+    top: 0%;
+    left: 2%;
+    width: 60px;
   }
   .gaele-carousel-wrap{
     padding:30px 20px;
@@ -156,6 +198,7 @@
   }
   .album-page .about-text{
     padding: 20px 0;
+  }
 }
 @media(min-width:640px){
   body.main-page{
@@ -241,40 +284,71 @@
     height: 560px;
     margin: 30px auto 0 auto;
   } 
-  .island {
-    position: absolute;
-    width: 250px;
-    height: 250px;
-  }
+  .island-bio{
+    top: 49%;
+    left: 45%;
+    width: 72px;
+    height: 52px;
+  }  
   .island[data-id="bio"] .glow-image { 
-    top: 110%;
-    left: 376px;
-    width: 70px;
+    top: 0%;
+    left: 2%;
+    width: 72px;
+  }
+  .island-gaelebiche{
+    top: 56%;
+    left: 64%;
+    width: 92px;
+    height: 128px;
   }
   .island[data-id="gaelebiche"] .glow-image { 
-    top: 127%;
-    left: 524px;
-    width: 98px;
+    top: 0%;
+    left: 0%;
+    width: 115px;
+  }
+  .island-albums{
+    top: 36%;
+    left: 23%;
+    width: 94px;
+    height: 96px;
   }
   .island[data-id="albums"] .glow-image { 
-    top: 84%;
-    left: 192px;
-    width: 95px;
+    top: 0%;
+    left: 0%;
+    width: 112px;
+  }
+  .island-latreve{
+    top: 43%;
+    left: 55%;
+    width: 178px;
+    height: 66px;
   }
   .island[data-id="latreve"] .glow-image { 
-    top: 96%;
-    left: 454px;
-    width: 182px;
+    top: 0%;
+    left: 1%;
+    width: 178px;
+  }
+  .island-les2l{
+    top: 8%;
+    left: 52%;
+    width: 148px;
+    height: 124px;
   }
   .island[data-id="les2l"] .glow-image { 
-    top: 21%;
-    left: 433px;
-    width: 138px;
+    top: 2%;
+    left: 0%;
+    width: 148px;
+  }
+  .island-pourlesautres{
+    top: 74%;
+    left: 34%;
+    width: 80px;
+    height: 108px;
   }
   .island[data-id="pourlesautres"] .glow-image { 
-    top: 166%;
-    left: 286px;
-    width: 82px;
+    top: 0%;
+    left: 0%;
+    width: 100px;
   }
   .album-text{
     padding-bottom: 0;
@@ -293,47 +367,8 @@
     transition: all 500ms ease-in;
     line-height: 180%;
   }
-  .about-text{
-    font-size: var(--font-size-xl);    
-    padding: 60px 0px;
-  }
   .album-text{
     padding-bottom: 0;
-  }
-  .map{
-    background-size: 700px 680px;
-    width:700px;
-    height: 680px;
-  }
-  .island[data-id="bio"] .glow-image { 
-    top: 134%;
-    left: 302px;
-    width: 87px;
-  }
-  .island[data-id="gaelebiche"] .glow-image { 
-    top: 155%;
-    left: 487px;
-    width: 117px;
-  }
-  .island[data-id="albums"] .glow-image { 
-    top: 102%;
-    left: 83px;
-    width: 116px;
-  }
-  .island[data-id="latreve"] .glow-image { 
-    top: 116%;
-    left: 400px;
-    width: 223px;
-  }
-  .island[data-id="les2l"] .glow-image { 
-    top: 26%;
-    left: 377px;
-    width: 166px;
-  }
-  .island[data-id="pourlesautres"] .glow-image { 
-    top: 202%;
-    left: 197px;
-    width: 98px;
   }
   .about-text{
     font-size: var(--font-size-xl);    
@@ -342,42 +377,149 @@
   .gaele-carousel-wrap{
     padding: 90px 6%;
   }
-
+  .map{
+    background-size: 700px 680px;
+    width:700px;
+    height: 680px;
+  }
+  .island-bio{
+    top: 49%;
+    left: 43%;
+    width: 92px;
+    height: 72px;
+  }  
+  .island[data-id="bio"] .glow-image { 
+    top: 0%;
+    left: 2%;
+    width: 92px;
+  }
+  .island-gaelebiche{
+    top: 56%;
+    left: 69%;
+    width: 128px;
+    height: 158px;
+  }
+  .island[data-id="gaelebiche"] .glow-image { 
+    top: 0%;
+    left: 0%;
+    width: 128px;
+  }
+  .island-albums{
+    top: 36%;
+    left: 11%;
+    width: 124px;
+    height: 116px;
+  }
+  .island[data-id="albums"] .glow-image { 
+    top: 0%;
+    left: 0%;
+    width:124px;
+  }
+  .island-latreve{
+    top: 43%;
+    left: 57%;
+    width: 226px;
+    height: 78px;
+  }
+  .island[data-id="latreve"] .glow-image { 
+    top: 0%;
+    left: 1%;
+    width: 226px;
+  }
+  .island-les2l{
+    top: 8%;
+    left: 53%;
+    width: 178px;
+    height: 154px;
+  }
+  .island[data-id="les2l"] .glow-image { 
+    top: 2%;
+    left: 0%;
+    width: 178px;
+  }
+  .island-pourlesautres{
+    top: 74%;
+    left: 28%;
+    width: 106px;
+    height: 128px;
+  }
+  .island[data-id="pourlesautres"] .glow-image { 
+    top: 0%;
+    left: 0%;
+    width: 106px;
+  }
 }
 @media(min-width:1400px){
   .map{
     background-size:100% 800px;
     height: 800px;
   }
+  .island-bio{
+    top: 49%;
+    left: 42%;
+    width: 102px;
+    height: 74px;
+  }
+  
   .island[data-id="bio"] .glow-image { 
-    top: 158%;
-    left: 299px;
-    width: 96px;
+    top: 0%;
+    left: 2%;
+    width: 113px;
+  }
+  .island-gaelebiche{
+    top: 56%;
+    left: 72%;
+    width: 140px;
+    height: 174px;
   }
   .island[data-id="gaelebiche"] .glow-image { 
-    top: 181%;
-    left: 504px;
+    top: 0%;
+    left: 0%;
+    width: 160px;
+  }
+  .island-albums{
+    top: 38%;
+    left: 5%;
     width: 138px;
+    height: 124px;
   }
   .island[data-id="albums"] .glow-image { 
-    top: 121%;
-    left: 45px;
-    width: 132px;
+    top: 2%;
+    left: 2%;
+    width: 150px;
+  }
+  .island-latreve{
+    top: 43%;
+    left: 58%;
+    width: 268px;
+    height: 94px;
   }
   .island[data-id="latreve"] .glow-image { 
-    top: 138%;
-    left: 408px;
-    width: 253px;
+    top: 0%;
+    left: 1%;
+    width: 275px;
+  }
+  .island-les2l{
+    top: 11%;
+    left: 55%;
+    width: 188px;
+    height: 154px;
   }
   .island[data-id="les2l"] .glow-image { 
-    top: 34%;
-    left: 380px;
-    width: 191px;
+    top: 2%;
+    left: 3%;
+    width: 193px;
+  }
+  .island-pourlesautres{
+    top: 74%;
+    left: 25%;
+    width: 118px;
+    height: 144px;
   }
   .island[data-id="pourlesautres"] .glow-image { 
-    top: 235%;
-    left: 175px;
-    width: 112px;
+    top: 4%;
+    left: 6%;
+    width: 124px;
   }
   .about-image img{
     max-width: 920px;
@@ -394,35 +536,14 @@
     height: 906px;
     width: 826px;
   }
-  .island[data-id="bio"] .glow-image { 
-    top: 447px;
-    left: 353px;
-    width: 112px;
-  }
-  .island[data-id="gaelebiche"] .glow-image { 
-    top: 515px;
-    left: 593px;
-    width: 157px;
-  }
-  .island[data-id="albums"] .glow-image { 
-    top: 340px;
-    left: 57px;
-    width: 153px;
-  }
-  .island[data-id="latreve"] .glow-image { 
-    top: 387px;
-    left: 478px;
-    width: 297px;
-  }
-  .island[data-id="les2l"] .glow-image { 
-    top: 84px;
-    left: 447px;
-    width: 224px;
-  }
+  
+  .island[data-id="bio"] .glow-image,
+  .island[data-id="gaelebiche"] .glow-image,
+  .island[data-id="albums"] .glow-image,
+  .island[data-id="latreve"] .glow-image,  
+  .island[data-id="les2l"] .glow-image,
   .island[data-id="pourlesautres"] .glow-image { 
-    top: 670px;
-    left: 210px;
-    width: 130px;
+    transform: scale(1.2);
   }
   .about-section{
     background-size: 1220px;
@@ -439,6 +560,5 @@
   .gaele-carousel-wrap{
     padding: 150px 6%;
   }
-
 }
 
