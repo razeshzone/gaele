@@ -453,6 +453,10 @@
   }
 }
 @media(min-width:1400px){
+  .banner-map{
+    height: 100vh;
+  }
+
   .map{
     background-size:100% 800px;
     height: 800px;
@@ -537,6 +541,9 @@
   }
   body.album-page{
     background-size: cover;
+  }
+  .banner-map{
+    height: 100vh;
   }
   .map {
     background-size:100% 904px;
