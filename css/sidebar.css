@@ -23,7 +23,7 @@
   color: var(--brown-dark);
 }
 .brand-block{
-  padding: 50px 30px;
+  padding: 50px 23%;
   display: flex;
   flex-direction: column;
   width: 100%;
