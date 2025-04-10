@@ -27,7 +27,7 @@
     /* background: url(../images/repeat-back-girl.png) 0 0 repeat-y, url(../images/Illustrations_arriere-plan_HR.png) 40% 137px no-repeat; */
     background: url(../images/repeat-back-girl.png) 0 0 repeat-y, url(../images/Illustrations_arriere-plan_HR.png) 63% 117px no-repeat;
     /* background-size: contain; */
-    background-size: 715px;
+    background-size: 845px;
   }
   body.album-page{
     background: url(../images/repeat-back-girl.png) 0 0 repeat-y, url(../images/album-bg.png) 29% -12px no-repeat;
@@ -41,7 +41,7 @@
     background-position: 50% 50%;
     width: 325px;
     height: 330px;
-    margin:100px auto;
+    margin:10px auto;
     position: relative;
   }
   .island-bio{
@@ -201,13 +201,30 @@
   .album-page .about-text{
     padding: 20px 0;
   }
+  .mobile-text{
+    color: var(--brown-dark);
+    font-size: var(--font-size-lg);
+    padding: 40px 0;
+  }
+  .h-100vh {
+    height: calc(100vh - 300px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
 }
 @media(min-width:640px){
   body.main-page{
      background: url(../images/repeat-back-girl.png) 0 0 repeat-y, url(../images/Illustrations_arriere-plan_HR.png) 63% 117px no-repeat;
     background-size: cover;
   }
-
+  .mobile-text{
+    padding: 15px 0 0 0;
+  }
+  .h-100vh {
+    height: auto;
+  }
 }
 @media(min-width:768px){
   .about-section {
