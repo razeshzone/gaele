@@ -24,14 +24,19 @@
 
 @media(min-width:320px){
   body.main-page{
-    /* background: url(../images/repeat-back-girl.png) 0 0 repeat-y, url(../images/Illustrations_arriere-plan_HR.png) 40% 137px no-repeat; */
-    background: url(../images/repeat-back-girl.png) 0 0 repeat-y, url(../images/Illustrations_arriere-plan_HR.png) 63% 117px no-repeat;
-    /* background-size: contain; */
-    background-size: 845px;
+    background-image: url(../images/repeat-back-girl.png), url(../images/Illustrations_mobile.svg);
+    background-position: 50% 50%, 63% -23px;
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: fixed, fixed;
+    background-size: cover, cover;
+    background-color: #E7E7E7;
   }
   body.album-page{
-    background: url(../images/repeat-back-girl.png) 0 0 repeat-y, url(../images/album-bg.png) 29% -12px no-repeat;
-    background-size: contain;
+    background-image: url(../images/repeat-back-girl.png), url(../images/album-bg.svg);
+    background-position: 50% 50%, 80px -130px;
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: fixed, fixed;
+    background-size: cover, cover;
     background-color: #E7E7E7;
   }
   .map{
@@ -215,10 +220,6 @@
 
 }
 @media(min-width:640px){
-  body.main-page{
-     background: url(../images/repeat-back-girl.png) 0 0 repeat-y, url(../images/Illustrations_arriere-plan_HR.png) 63% 117px no-repeat;
-    background-size: cover;
-  }
   .mobile-text{
     padding: 15px 0 0 0;
   }
@@ -246,10 +247,6 @@
   }
 }
 @media(min-width:992px){
-  body.main-page{
-    background: url(../images/repeat-back-girl.png) 0 0 repeat-y, url(../images/Illustrations_arriere-plan_HR.png) 0% -50px no-repeat;
-    background-size: cover;
-  }
   .content{
     position: relative;
   }  
@@ -553,12 +550,6 @@
 }
 
 @media(min-width:1920px){
-  body.main-page{
-    background: url(../images/repeat-back-girl.png) 0 0 repeat-y, url(../images/Illustrations_arriere-plan_HR.png) 50% -70px no-repeat;
-  }
-  body.album-page{
-    background-size: cover;
-  }
   .banner-map{
     height: 100vh;
   }
