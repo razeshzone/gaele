@@ -258,10 +258,12 @@
     background-position: 0px 0px;
     background-size: cover;
   }
-  .about-section{
-    padding:80px 6% 50px 6%;
+  .about-section {
+    padding: 120px 6% 50px 6%;
     background-position: 95% 60%;
-    background-size: 562px;
+    background-size: 702px;
+    background-position: 230px 70%;
+    /* background-size: clamp(912px, 4vw, 1020px);*/
   }
   .about-container{
     flex-direction: row;
@@ -465,6 +467,14 @@
     left: 0%;
     width: 106px;
   }
+  .about-section {
+    padding: 120px 6% 50px 6%;
+    background-position: 95% 60%;
+    background-size: 562px;
+    background-position: 320px 110%;
+    background-size: clamp(852px, 4vw, 1020px);
+  }
+
 }
 @media(min-width:1400px){
   .banner-map{

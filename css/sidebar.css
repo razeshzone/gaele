@@ -58,6 +58,9 @@
 .support-text{
   padding-top: 0;
 }
+.support-text p{
+  font-size: clamp(var(--font-size-base), 3.2px + 4vw, var(--font-size-h4));
+}
 .sidebar:hover .support-text{
   display: none;
 }
