@@ -21,7 +21,15 @@
   display: block;
   cursor: pointer;
 }
-
+.positioned-blob{
+  top: -38%;
+  left: -40%;
+  z-index: -1;
+}
+.positioned-blob img{
+  object-fit: cover;
+  transform: scale(1);
+}
 @media(min-width:320px){
   body.main-page{
     background-image: url(../images/repeat-back-girl.png), url(../images/Illustrations_mobile.svg);
@@ -169,8 +177,8 @@
   }
   .about-section{
     padding:30px 20px;
-    background: url(../images/about-text-shape-bg.svg) 55% 150% no-repeat;
-    background-size: 600px;
+    /* background: url(../images/about-text-shape-bg.svg) 55% 150% no-repeat;
+    background-size: 600px; */
   }
   .album-page .about-section{
     background: none;
@@ -185,6 +193,7 @@
     color: var(--brown-dark);
     font-size: var(--font-size-lg);    
     padding: 20px 20px;
+    position: relative;
   }
   .about-text a{
     color: var(--brown-dark);
@@ -217,7 +226,15 @@
     align-items: center;
     justify-content: center;
   }
-
+  .positioned-blob{
+    top: -138%;
+    left: -80%;
+  }
+  .positioned-blob img{
+    object-fit: contain;
+    transform: scale(0.6);
+  }
+  
 }
 @media(min-width:640px){
   .mobile-text{
@@ -244,6 +261,10 @@
   }
   .album-page .about-section{
     padding: 50px 10%;
+  }
+  .positioned-blob {
+    top: -138%;
+    left: -35%;
   }
 }
 @media(min-width:992px){
@@ -379,6 +400,14 @@
   .about-image img{
     max-width: 500px;
   }
+  .positioned-blob{
+    top: -98%;
+    left: -70%;  
+  }
+  .positioned-blob img{
+    object-fit: cover;
+    transform: scale(1);
+  }
 }
 
 @media(min-width:1200px){
@@ -475,7 +504,15 @@
     background-position: 320px 110%;
     background-size: clamp(852px, 4vw, 1020px);
   }
-
+  .positioned-blob{
+    top: -38%;
+    left: -40%;
+  }
+  .positioned-blob img{
+    object-fit: cover;
+    transform: scale(1);
+  }
+  
 }
 @media(min-width:1400px){
   .banner-map{
@@ -623,6 +660,14 @@
     left: 6%;
     width: 138px;
   }
-
+  .positioned-blob{
+    top: -38%;
+    left: -40%;
+  }
+  .positioned-blob img{
+    object-fit: cover;
+    transform: scale(1.5);
+  }
+  
 }
 
