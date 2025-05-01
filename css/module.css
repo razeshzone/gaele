@@ -35,7 +35,6 @@
     background-image: url(../images/repeat-back-girl.png), url(../images/Illustrations_mobile.svg);
     background-position: 50% 50%, 63% -23px;
     background-repeat: repeat-y, no-repeat;
-    background-attachment: fixed, auto;
     background-size: cover, cover;
     background-color: #F7EEE7;
   }
@@ -43,7 +42,6 @@
     background-image: url(../images/repeat-back-girl.png), url(../images/album-bg.svg);
     background-position: 50% 50%, 80px -130px;
     background-repeat: no-repeat, no-repeat;
-    background-attachment: fixed, fixed;
     background-size: cover, cover;
     background-color: #E7E7E7;
   }
