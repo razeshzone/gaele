@@ -33,7 +33,7 @@
 @media(min-width:320px){
   body.main-page{
     background-image: url(../images/repeat-back-girl.png), url(../images/Illustrations_mobile.svg);
-    background-position: 50% 50%, 63% -23px;
+    background-position: 50% 50%, 60% 60px;
     background-repeat: repeat-y, no-repeat;
     background-size: cover, cover;
     background-color: #F7EEE7;
@@ -56,10 +56,10 @@
     position: relative;
   }
   .island-bio{
-    top: 49%;
-    left: 42%;
-    width: 48px;
-    height: 34px;
+    top: 51%;
+    left: 43%;
+    width: 41px;
+    height: 32px;
   }  
   .island[data-id="bio"] .glow-image { 
     top: 0%;
@@ -67,58 +67,58 @@
     width: 50px;
   }
   .island-gaelebiche{
-    top: 56%;
+    top: 59%;
     left: 70%;
-    width: 62px;
-    height: 80px;
+    width: 56px;
+    height: 68px;
   }
   .island[data-id="gaelebiche"] .glow-image { 
     top: 0%;
     left: 0%;
-    width: 62px;
+    width: 60px;
   }
   .island-albums{
-    top: 36%;
-    left: 8%;
+    top: 40%;
+    left: 11%;
     width: 54px;
     height: 46px;
   }
   .island[data-id="albums"] .glow-image { 
     top: 0%;
     left: 0%;
-    width: 68px;
+    width: 54px;
   }
   .island-latreve{
-    top: 43%;
+    top: 45%;
     left: 58%;
-    width: 108px;
+    width: 104px;
     height: 36px;
   }
   .island[data-id="latreve"] .glow-image { 
     top: 0%;
-    left: 1%;
-    width: 108px;
+    left: 0%;
+    width: 104px;
   }
   .island-les2l{
-    top: 8%;
-    left: 53%;
-    width: 88px;
-    height: 80px;
+    top: 12%;
+    left: 54%;
+    width: 78px;
+    height: 68px;
   }
   .island[data-id="les2l"] .glow-image { 
-    top: 2%;
-    left: 3%;
-    width: 88px;
+    top: 0%;
+    left: 0%;
+    width: 78px;
   }
   .island-pourlesautres{
-    top: 74%;
-    left: 25%;
-    width: 60px;
-    height: 64px;
+    top: 75%;
+    left: 27%;
+    width: 50px;
+    height: 60px;
   }
   .island[data-id="pourlesautres"] .glow-image { 
     top: 0%;
-    left: 2%;
+    left: 0%;
     width: 60px;
   }
   .gaele-carousel-wrap{
@@ -220,6 +220,7 @@
   }
   .h-100vh {
     height: calc(100vh - 300px);
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -235,6 +236,9 @@
   
 }
 @media(min-width:640px){
+  body.main-page{
+    background-position: 50% 50%, 50% 60px;
+  }
   .mobile-text{
     padding: 15px 0 0 0;
   }
@@ -243,6 +247,9 @@
   }
 }
 @media(min-width:768px){
+  body.main-page{
+    background-position: 50% 50%, -70px 60px;
+  }
   .about-section {
     padding: 80px 6% 50px 6%;
     background-position: 15% 10%;
@@ -266,6 +273,9 @@
   }
 }
 @media(min-width:992px){
+  body.main-page{
+    background-position: 50% 50%, 60px 0px;
+  }
   .content{
     position: relative;
   }  
@@ -319,12 +329,12 @@
     /* background-image: url(../images/map-images/map-new.svg); */
     background-image: url(../images/map-images/map-new-mobile.svg);
     background-size: 100% 560px;
-    width: 825px;
+    width: 756px;
     height: 560px;
     margin: 30px auto 0 auto;
   } 
   .island-bio{
-    top: 49%;
+    top: 51%;
     left: 45%;
     width: 72px;
     height: 52px;
@@ -335,59 +345,60 @@
     width: 72px;
   }
   .island-gaelebiche{
-    top: 56%;
-    left: 64%;
-    width: 92px;
-    height: 128px;
+    top: 59%;
+    left: 63%;
+    width: 102px;
+    height: 120px;
   }
   .island[data-id="gaelebiche"] .glow-image { 
     top: 0%;
     left: 0%;
-    width: 115px;
+    width: 100px;
   }
   .island-albums{
-    top: 36%;
+    top: 40%;
     left: 23%;
-    width: 94px;
-    height: 96px;
+    left: 156px;
+    width: 104px;
+    height: 88px;
   }
   .island[data-id="albums"] .glow-image { 
     top: 0%;
     left: 0%;
-    width: 112px;
+    width: 102px;
   }
   .island-latreve{
-    top: 43%;
+    top: 45%;
     left: 55%;
-    width: 178px;
+    width: 182px;
     height: 66px;
   }
   .island[data-id="latreve"] .glow-image { 
     top: 0%;
-    left: 1%;
-    width: 178px;
+    left: 0%;
+    width: 190px;
   }
   .island-les2l{
-    top: 8%;
+    top: 12%;
     left: 52%;
     width: 148px;
     height: 124px;
   }
   .island[data-id="les2l"] .glow-image { 
-    top: 2%;
+    top: 0%;
     left: 0%;
-    width: 148px;
+    width: 146px;
   }
   .island-pourlesautres{
-    top: 74%;
-    left: 34%;
-    width: 80px;
-    height: 108px;
+    top: 75%;
+    left: 33%;
+    width: 86px;
+    height: 106px;
   }
   .island[data-id="pourlesautres"] .glow-image { 
     top: 0%;
     left: 0%;
-    width: 100px;
+    width: 90px;
   }
   .album-text{
     padding-bottom: 0;
@@ -430,21 +441,21 @@
     height: 680px;
   }
   .island-bio{
-    top: 49%;
-    left: 42%;
+    top: 51%;
+    left: 43%;
     width: 94px;
-    height: 76px;
+    height: 70px;
   }  
   .island[data-id="bio"] .glow-image { 
     top: 0%;
-    left: 2%;
+    left: 0%;
     width: 98px;
   }
   .island-gaelebiche{
-    top: 57%;
-    left: 70%;
-    width: 135px;
-    height: 164px;
+    top: 58%;
+    left: 68%;
+    width: 130px;
+    height: 155px;
   }
   .island[data-id="gaelebiche"] .glow-image { 
     top: 0%;
@@ -452,8 +463,8 @@
     width: 140px;
   }
   .island-albums{
-    top: 36%;
-    left: 7%;
+    top: 39%;
+    left: 11%;
     width: 134px;
     height: 116px;
   }
@@ -463,37 +474,37 @@
     width:132px;
   }
   .island-latreve{
-    top: 42%;
+    top: 45%;
     left: 57%;
-    width: 244px;
-    height: 84px;
+    width: 224px;
+    height: 77px;
   }
   .island[data-id="latreve"] .glow-image { 
-    top: 1%;
-    left: 1%;
-    width: 260px;
+    top: 0%;
+    left: 0%;
+    width: 222px;
   }
   .island-les2l{
-    top: 5%;
-    left: 55%;
+    top: 12%;
+    left: 53%;
     width: 172px;
     height: 152px;
   }
   .island[data-id="les2l"] .glow-image { 
-    top: 2%;
+    top: 0%;
     left: 0%;
-    width: 178px;
+    width: 170px;
   }
   .island-pourlesautres{
-    top: 76%;
-    left: 25%;
-    width: 112px;
-    height: 140px;
+    top: 75%;
+    left: 28%;
+    width: 104px;
+    height: 130px;
   }
   .island[data-id="pourlesautres"] .glow-image { 
     top: 0%;
     left: 0%;
-    width: 130px;
+    width: 102px;
   }
   .about-section {
     padding: 120px 6% 50px 6%;
@@ -523,53 +534,53 @@
     height: 890px;
   }
   .island-bio{
-    top: 49%;
-    left: 41%;
-    width: 119px;
-    height: 99px;
+    top: 51%;
+    left: 42%;
+    width: 94px;
+    height: 76px;
   }
   
   .island[data-id="bio"] .glow-image { 
     top: 0%;
-    left: 2%;
-    width: 113px;
+    left: 0%;
+    width: 106px;
   }
   .island-gaelebiche{
-    top: 57%;
-    left: 73%;
-    width: 172px;
-    height: 216px;
+    top: 58%;
+    left: 71%;
+    width: 132px;
+    height: 160px;
   }
   .island[data-id="gaelebiche"] .glow-image { 
     top: 0%;
     left: 0%;
-    width: 172px;
+    width: 148px;
   }
   .island-albums{
-    top: 36%;
-    left: 1%;
-    width: 178px;
-    height: 158px;
+    top: 41%;
+    left: 8%;
+    width: 128px;
+    height: 118px;
   }
   .island[data-id="albums"] .glow-image { 
-    top: 2%;
-    left: 2%;
-    width: 170px;
+    top: 0%;
+    left: 0%;
+    width: 140px;
   }
   .island-latreve{
-    top: 41%;
+    top: 46%;
     left: 58%;
-    width: 321px;
-    height: 120px;
+    width: 248px;
+    height: 90px;
   }
   .island[data-id="latreve"] .glow-image { 
-    top: 15%;
-    left: 1%;
-    width: 290px;
+    top: 0%;
+    left: 0%;
+    width: 250px;
   }
   .island-les2l{
-    top: 11%;
-    left: 55%;
+    top: 17%;
+    left: 52%;
     width: 188px;
     height: 154px;
   }
@@ -579,10 +590,10 @@
     width: 193px;
   }
   .island-pourlesautres{
-    top: 72%;
-    left: 20%;
-    width: 148px;
-    height: 182px;
+    top: 70%;
+    left: 23%;
+    width: 118px;
+    height: 142px;
   }
   .island[data-id="pourlesautres"] .glow-image { 
     top: 4%;
@@ -600,18 +611,75 @@
     height: 100vh;
   }
   .map {
-    background-size:100% 904px;
+    background-size:100% 906px;
     height: 906px;
     width: 826px;
   }
-  
-  .island[data-id="bio"] .glow-image,
-  .island[data-id="gaelebiche"] .glow-image,
-  .island[data-id="albums"] .glow-image,
-  .island[data-id="latreve"] .glow-image,  
-  .island[data-id="les2l"] .glow-image,
+  .island-bio{
+    top: 51%;
+    left: 42%;
+    width: 112px;
+    height: 86px;
+  }
+  .island[data-id="bio"] .glow-image { 
+    top: 0%;
+    left: 0%;
+    width: 126px;
+  }
+  .island-gaelebiche{
+    top: 58%;
+    left: 71%;
+    width: 132px;
+    height: 160px;
+  }
+  .island[data-id="gaelebiche"] .glow-image { 
+    top: 0%;
+    left: 0%;
+    width: 178px;
+  }
+  .island-albums{
+    top: 40%;
+    left: 8%;
+    width: 149px;
+    height: 138px;
+  }
+  .island[data-id="albums"] .glow-image { 
+    top: 0%;
+    left: 0%;
+    width: 148px;
+  }
+  .island-latreve{
+    top: 45%;
+    left: 58%;
+    width: 288px;
+    height: 100px;
+  }
+  .island[data-id="latreve"] .glow-image { 
+    top: 0%;
+    left: 0%;
+    width: 306px;
+  }
+  .island-les2l{
+    top: 12.5%;
+    left: 54%;
+    width: 218px;
+    height: 188px;
+  }
+  .island[data-id="les2l"] .glow-image { 
+    top: 0%;
+    left: 0%;
+    width: 223px;
+  }
+  .island-pourlesautres{
+    top: 75%;
+    left: 26%;
+    width: 138px;
+    height: 168px;
+  }
   .island[data-id="pourlesautres"] .glow-image { 
-    transform: scale(1.2);
+    top: 0%;
+    left: 0%;
+    width: 150px;
   }
   .about-section{
     background-size: 1220px;
@@ -631,33 +699,7 @@
   .album-text p {
     font-size: var(--font-size-xl);
   }
-  .island[data-id="latreve"] .glow-image { 
-    top: 15%;
-    left: 1%;
-    width: 320px;
-  }
-  .island-les2l{
-    top: 5%;
-    left: 53%;
-    width: 248px;
-    height: 204px;
-  }
-  .island[data-id="les2l"] .glow-image { 
-    top: 2%;
-    left: 3%;
-    width: 220px;
-  }
-  .island-pourlesautres{
-    top: 76%;
-    left: 22%;
-    width: 148px;
-    height: 182px;
-  }
-  .island[data-id="pourlesautres"] .glow-image { 
-    top: 4%;
-    left: 6%;
-    width: 138px;
-  }
+
   .positioned-blob{
     top: -38%;
     left: -40%;
@@ -669,3 +711,65 @@
   
 }
 
+@media(min-width:2560px){
+  .map {
+    aspect-ratio: auto;
+    background-size: 100% 1216px;
+    height: 1266px;
+    width: 1216px;
+  }
+  .island-bio {
+    top: 51%;
+    left: 43%;
+    width: 152px;
+    height: 122px;
+  }
+  .island[data-id="bio"] .glow-image { 
+    width: 166px;
+  }
+  .island-gaelebiche{
+    top: 58%;
+    left: 69%;
+    width: 222px;
+    height: 270px;
+  }
+  .island[data-id="gaelebiche"] .glow-image{
+    width: 236px;
+  }
+  .island-albums{
+    top: 40%;
+    left: 11%;
+    width: 213px;
+    height: 190px;
+  }
+  .island[data-id="albums"] .glow-image{
+    width: 220px;
+  }
+  .island-latreve{
+    top: 45%;
+    left: 57%;
+    width: 394px;
+    height: 140px;
+  }
+  .island[data-id="latreve"] .glow-image{
+    width: 416px;
+  }
+  .island-les2l{
+    top: 13%;
+    left: 53%;
+    width: 298px;
+    height: 268px;
+  }
+  .island[data-id="les2l"] .glow-image{
+    width: 310px;
+  }
+  .island-pourlesautres{
+    top: 74%;
+    left: 27%;
+    width: 198px;
+    height: 230px;
+  }
+  .island[data-id="pourlesautres"] .glow-image{
+    width: 200px;
+  }
+}
