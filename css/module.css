@@ -38,6 +38,18 @@
     background-size: cover, cover;
     background-color: #F7EEE7;
   }
+  body.main-page:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(247, 196, 138, 0.3);
+    z-index: 0;
+  }
   body.album-page{
     background-image: url(../images/repeat-back-girl.png), url(../images/album-bg.svg);
     background-position: 50% 50%, 80px -130px;
@@ -54,6 +66,7 @@
     height: 330px;
     margin:10px auto;
     position: relative;
+    margin-top: -50px;
   }
   .island-bio{
     top: 51%;
@@ -175,8 +188,6 @@
   }
   .about-section{
     padding:30px 20px;
-    /* background: url(../images/about-text-shape-bg.svg) 55% 150% no-repeat;
-    background-size: 600px; */
   }
   .album-page .about-section{
     background: none;
@@ -220,7 +231,6 @@
   }
   .h-100vh {
     height: calc(100vh - 300px);
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -242,13 +252,13 @@
   .mobile-text{
     padding: 15px 0 0 0;
   }
-  .h-100vh {
-    height: auto;
-  }
 }
 @media(min-width:768px){
   body.main-page{
     background-position: 50% 50%, -70px 60px;
+  }
+  body.main-page:before{
+    display: none;
   }
   .about-section {
     padding: 80px 6% 50px 6%;
@@ -271,67 +281,13 @@
     top: -138%;
     left: -35%;
   }
-}
-@media(min-width:992px){
-  body.main-page{
-    background-position: 50% 50%, 60px 0px;
-  }
-  .content{
-    position: relative;
-  }  
-  .gaele-carousel-wrap{
-    padding: 70px 6%;
-    background-position: 0 0;
-  }
-  .gaele-carousel-wrap:before{
-    background-position: 0px 0px;
-    background-size: cover;
-  }
-  .about-section {
-    padding: 120px 6% 50px 6%;
-    background-position: 95% 60%;
-    background-size: 702px;
-    background-position: 230px 70%;
-    /* background-size: clamp(912px, 4vw, 1020px);*/
-  }
-  .about-container{
-    flex-direction: row;
-  }
-  .about-text{
-    font-size: var(--font-size-lg);    
-    color: var(--brown-dark);
-    width: 50%;
-    line-height: 1.4;
-    padding: 20px 0;
-  }  
-  .t-text{
-    margin-left: -10%;
-  }
-  .about-image{
-    width: 50%;
-  }
-  .album-page .about-image,
-  .album-page .about-text{
-    width: 100%;
-  }
-  .album-page .about-section{
-    padding: 80px 6%;
-  }
-  .album-page .album-text{
-    padding-bottom: 0px;
-  }
-  .about-image img{
-    object-fit: cover;
-    width: 100%;
-    height: auto;
-  }
   .map{
-    /* background-image: url(../images/map-images/map-new.svg); */
     background-image: url(../images/map-images/map-new-mobile.svg);
     background-size: 100% 560px;
     width: 756px;
     height: 560px;
     margin: 30px auto 0 auto;
+    margin: 0px auto 0 auto;
   } 
   .island-bio{
     top: 51%;
@@ -400,6 +356,62 @@
     left: 0%;
     width: 90px;
   }
+  .h-100vh {
+    height: calc(100vh - 200px);
+  }
+}
+@media(min-width:992px){
+  body.main-page{
+    background-position: 50% 50%, 60px 0px;
+  }
+  .content{
+    position: relative;
+  }  
+  .gaele-carousel-wrap{
+    padding: 70px 6%;
+    background-position: 0 0;
+  }
+  .gaele-carousel-wrap:before{
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+  .about-section {
+    padding: 120px 6% 50px 6%;
+    background-position: 95% 60%;
+    background-size: 702px;
+    background-position: 230px 70%;
+  }
+  .about-container{
+    flex-direction: row;
+  }
+  .about-text{
+    font-size: var(--font-size-lg);    
+    color: var(--brown-dark);
+    width: 50%;
+    line-height: 1.4;
+    padding: 20px 0;
+  }  
+  .t-text{
+    margin-left: -10%;
+  }
+  .about-image{
+    width: 50%;
+  }
+  .album-page .about-image,
+  .album-page .about-text{
+    width: 100%;
+  }
+  .album-page .about-section{
+    padding: 80px 6%;
+  }
+  .album-page .album-text{
+    padding-bottom: 0px;
+  }
+  .about-image img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+  }
   .album-text{
     padding-bottom: 0;
   }
@@ -416,6 +428,9 @@
   .positioned-blob img{
     object-fit: cover;
     transform: scale(1);
+  }
+  .h-100vh {
+    height: auto;
   }
 }
 
@@ -439,6 +454,7 @@
     background-size: 700px 680px;
     width:700px;
     height: 680px;
+    margin-top: 0px;
   }
   .island-bio{
     top: 51%;
@@ -532,6 +548,7 @@
     background-size:100% 800px;
     height: 800px;
     height: 890px;
+    margin-top: 30px;
   }
   .island-bio{
     top: 51%;
